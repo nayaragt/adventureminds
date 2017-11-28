@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+
+<head>
+
+	<title>Adventure Minds</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<link href="css/font-awesome.css" rel="stylesheet"> 
+	<link href="css/main.css" rel="stylesheet"> 
+	<link href="css/jquery.simpleweather.css" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<link rel="stylesheet" href="css/lightbox.css">
+	<script src="js/SmoothScroll.min.js"></script>
+
+
+<!--
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/font-awesome.css" rel="stylesheet" /> 
+	<link href="css/main.css" rel="stylesheet" /> 
+	<link href="css/jquery.simpleweather.css" rel="stylesheet" /> 
+	<link href="css/lightbox.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+-->
+
+	<!-- Google Analytics -->
+	<script async src='https://www.google-analytics.com/analytics.js'></script>
+	<script>
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-XXXXXX', 'auto');
+	ga('send', 'pageview')
+	</script>
+	<!-- Google Analytics -->
+	  
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-xxxxxxx');</script>
+	<!-- Google Tag Manager -->
+	
+
+	<style>
+
+	.ctm h1 {
+		font-size: 1.0em;
+		font-family: 'Arial', serif;
+		color: #727272;
+		letter-spacing: 0.0825em;
+		line-height: 1.5em;
+		text-align: justify;
+	}
+
+	.ctm h2 {
+		font-size: 1.0em;
+		font-family: 'Arial', serif;
+		color: #000;
+		font-weight: 600;
+		letter-spacing: 0.0825em;
+		line-height: 1.5em;
+		text-align: center;
+	}
+
+	.ctm h3 {
+		font-size: 1.0em;
+		font-family: 'Arial', serif;
+		color: #727272;
+		letter-spacing: 0.0825em;
+		line-height: 1.5em;
+		text-align: justify;
+	}
+		
+	@media (min-width:768px){
+		.ctm h1 h2 h3 {
+			font-size: 1.0em;
+		}
+	}
+
+	@media (min-width:992px){
+		.ctm h1 h2 h3 {
+			font-size: 1.5em;
+		}
+	}
+
+	@media (min-width:1200px){
+		.ctm h1 h2 h3 {
+			font-size: 1.5em;
+		}
+	}
+
+	@media (max-width:600px){.w3-hide-small{display:none!important}}
+
+	</style>
+
+</head>
+
+<body id="inicio" data-spy="scroll" data-target=".navbar" data-offset="50" style="font-family: 'Arial', serif;">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+	<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+<!-- banner -->
+<div class="banner">
+
+	<nav class="navbar2 navbar-inverse2" style="padding: 10px">
+		<!-- <div class="nav navbar-nav"> -->
+		<div class="pull-left">
+			<ul class="pre-link-box border-n">  
+				<!--<span class="weather-top">Barcelos, AM<i class="icon-30"></i> 29°C</span>-->
+				<span id="weather"></span>  
+			</ul>
+		</div>		
+		<!--<div class="pull-left hide-sm">
+			<ul class="pre-link-box border-left"> 
+				<span class="glyphicon glyphicon-earphone"></span> +55 92 99335.8272  
+			</ul>
+		</div>		-->
+		<div class="nav navbar-nav pull-left hide-sm hide-md">
+			<ul class="pre-link-box border-left">
+				<span class="glyphicon glyphicon-envelope"></span> pattizanotti@gmail.com
+			</ul>
+		</div>		
+		<div class="pull-right">
+			<ul class="pre-link-box border-n"> 
+				<a href="https://www.facebook.com/XXXXXXX" target="_blank"> <span class="fa-stack"> <i id="menuFacebook" class="fa fa-circle fa-stack-2x"></i> <i id="menuFacebook" class="fa fa-facebook fa-stack-1x fa-inverse"></i> </span> </a>
+			</ul>
+		</div>			
+	</nav>		
+
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>                        
+		  </button>
+		  <!-- <a class="navbar-brand" href="#">Pousada Tupana&ccedil;&uacute;</a> -->
+		  <a class="navbar-brand">Adventure Minds</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a id="menuBlog" href="#blog" class="scroll">BLOG</a></li>
+				<li><a id="menuSobreMim" href="#sobremim" class="scroll">SOBRE MIM</a></li>
+				<li><a id="menuContato" href="#contato" class="scroll">CONTATO</a></li>
+			</ul>
+		</div>
+	  </div>
+	</nav>
+	
+	
+	
+	
+
+	<div class="banner-info">
+		<div class="container">
+			<!--<h3>Aliquam erat volutpat. Duis vulputate tempus laoreet. Integer viverra eleifend neque, eget dictum lectus. Quisque eu tempor dolor.</h3>-->
+			<h2>getting new experiences</h2>
+			<h2><br></h2>
+			<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere tempor quam, vitae vestibulum lacus placerat non. Donec volutpat odio sed neque molestie elementum quis nec nisi. Phasellus elit leo, lobortis non massa in, elementum maximus urna.</p>-->
+			<!--<div class="w3-button">-->
+				<!-- <a href="#roteiro" class="hvr-sweep-to-bottom" data-toggle="modal" data-target="#myModal">CLIQUE AQUI: ROTEIRO 2017!</a>-->
+				<!--<a id="buttonRoteiro" href="#roteiro" class="hvr-sweep-to-bottom">Novos roteiros! Clique aqui e saiba mais!</a>-->
+			<!--</div>-->
+		</div>
+	</div>
+		
+		
+</div>
+<!-- //banner -->
+
+
+
+
+	<!-- POSTS	-->
+	<div class="about" id="blog">
+		<div class="container">
+			<div class="about-heading">
+				<h3 style="font-family: 'Courgette', cursive; text-align: center; ">Blog</h3>
+				<!-- <p>Cras cursus, nunc sit amet aliquam maximus</p>-->
+			</div>
+			
+			<!-- <div class="agileits-icon-grid"> -->
+			<div class="w3l-about-grids ctm">
+			
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12">
+					teste
+					</div>
+						
+				
+				<!--<div class="row text-justify ctm">-->
+					<div class="col-lg-8 col-md-6 col-sm-12">
+
+					<h3>#GonçalvesAventura</h3>
+					
+					<h3>31.10.2017</h3>
+					
+					<h3>Leia Aqui</h3>
+					
+					</div>
+					
+					<!--<div class="col-lg-12 col-md-12 col-sm-12">
+						<h3>A soma de todos estes elementos comungam para uma excelente pescaria e conforto em sua estadia conosco.</h3>
+						<h3>N&atilde;o perca mais tempo, entre e contato e programe sua pescaria para a Temporada 2017/2018!</h3>
+					</div>-->
+				</div>
+			
+			</div>
+	
+		</div>
+	</div>
+	<!-- //POSTS -->
+	
+	
+	
+
+				
+				
+	
+
+	<!-- contact -->
+	<!-- <div class="services" id="contato"> -->
+	<div class="gallery" id="contato">
+		<div class="container">
+			<div class="about-heading">
+				<h3 style="font-family: 'Courgette', cursive; text-align: center; ">Contato</h3>
+				<!-- <p>Cras cursus, nunc sit amet aliquam maximus</p>-->
+			</div>
+			
+			<!--<div class="w3l-about-grids care-bottom"> -->
+			<!-- <div class="ctm">   -->
+			<div class="w3l-about-grids ctm">
+
+				<div class="row">
+					<div class="col-md-12">
+						<h3 style="text-align: center;">Para dúvidas, dicas e help entre em contato pattizanotti@gmail.com ou preencha este formulário:</h3>
+						<!--<h3 style="text-align: center;">Entre em contato comigo!</h3>-->
+					</div>
+				</div>
+				
+				
+				<div class="row" style="margin: 2em 0 0 0; border-radius: 25px; border: 2px solid #79d279;">
+				
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="text-align: center;">
+						<h2>formulario</h2>
+						<p><i class="fa fa-user"></i> nome </p>
+						<p><i class="fa fa-phone"></i> telefone </p>
+						<p><i class="fa fa-envelope"></i> email </p>
+					</div>
+					
+					<!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="text-align: center;">
+						<h2>Barcelos - AM</h2>
+						<p><i class="fa fa-user"></i> Iara </p>
+						<p><i class="fa fa-phone"></i> +55 92 99335.8272 ou <i class="fa fa-phone"></i> +55 97 98409.8350</p>
+						<p><i class="fa fa-envelope"></i> pousadatupanacu@gmail.com</p>
+					</div>-->
+				</div>
+			
+			</div>	
+		</div>
+	</div>
+	
+	<div class="clearfix"> </div>
+	<!-- //contact -->
+
+	
+	
+	
+	<!-- about -->
+	<div class="about" id="sobremim">
+		<div class="container">
+			<div class="about-heading">
+				<h3 style="font-family: 'Courgette', cursive; text-align: center; ">Sobre Mim</h3>
+				<p style="text-align: center;">Patricia Zanotti</p>
+			</div>
+			
+			<!-- <div class="agileits-icon-grid"> -->
+			<div class="w3l-about-grids ctm">
+			
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12">
+						<div>
+							<img src="images/pati.jpg" class="img-rounded img-responsive" alt="" width="200" height="150" style="margin: auto;"> 
+						</div>
+					</div>
+						
+				
+				<!--<div class="row text-justify ctm">-->
+					<div class="col-lg-8 col-md-6 col-sm-12">
+
+					<h3>Apaixonada pelo mundo Off Road, Ecoturismo e Viagens independentes, Patrícia tem na bagagem muitas aventuras e Kms rodados pelas estradas mundo afora.</h3>
+					
+					<h3>Arquiteta e Designer de Interiores tem grandes habilidades na produção e organização de eventos. Morou na Itália e Estados Unidos onde trabalhou como arquiteta e aprimorou seus conhecimentos em artes e fotografia.</h3>
+					
+					<h3>É uma “TripAholic” de carteirinha e seu espirito aventureiro faz com que esteja sempre em busca de novas paisagens, conhecimentos e  descobertas, inspirando pessoas a vivenciar experiencias nunca antes pensadas.</h3>
+
+					<h3>Adora receber e fazer novos amigos e um de seus talentos é tornar cada viagem  única e especial.</h3>
+					
+					</div>
+					
+					<!--<div class="col-lg-12 col-md-12 col-sm-12">
+						<h3>A soma de todos estes elementos comungam para uma excelente pescaria e conforto em sua estadia conosco.</h3>
+						<h3>N&atilde;o perca mais tempo, entre e contato e programe sua pescaria para a Temporada 2017/2018!</h3>
+					</div>-->
+				</div>
+			
+			</div>
+	
+		</div>
+	</div>
+	<!-- //about -->
+	
+	
+	
+
+				
+	<!-- footer -->
+	<!-- <div class="copyright" style="background-color: rgba(121, 210, 121, 0.6);"> -->
+	<div class="copyright" style="background-color: #79d279;"> 
+		<div class="container">
+			<p style="color: #fff;">© 2017 | Adventure Minds | Todos os direitos reservados</p>
+			<!--Design by <a href="http://w3layouts.com">W3layouts</a> -->
+		</div>
+	</div>
+	<!-- //footer -->
+	
+	<script type="text/javascript" src="js/jquery.simpleWeather.min.js"></script>
+	<script type="text/javascript" src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>
+
+	<!--
+	<script>
+	/* MENU COLLAPSE BEGIN */
+	$(document).on('click',function(){
+		$('.collapse').collapse('hide');
+	})
+	/* MENU COLLAPSE END */
+	</script>
+	-->
+
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+		*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+
+	</script>
+	<!-- //here ends scrolling icon -->
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.simpleWeather.min.js"></script>
+
+	<script>
+		// Docs at http://simpleweatherjs.com
+		$(document).ready(function() {
+			$.simpleWeather({
+				location: '-23.4749111,-46.8373287',
+				woeid: '',
+				unit: 'c',
+				
+				success: function(weather) {
+					  html = '<span class="weather-top">'+weather.city+','+weather.region+'<i class="icon-' + weather.code + '"></i> ' + weather.temp + '&deg;' + weather.units.temp + '</span>';
+			  
+					  $("#weather").html(html);
+				},
+					
+				error: function(error) {
+					$("#weather").html('<p>' + error + '</p>');
+				}
+			});
+		});
+	</script>
+
+
+</body>	
+</html>
